@@ -193,7 +193,7 @@ CREATE TABLE ReseñaEst (
   NombreUsr VARCHAR(50) not null,
   Id_Establecimiento INT,
   FOREIGN KEY (Id_Establecimiento) REFERENCES Establecimientos(Id_Establecimiento)
-    ON DELETE CASCADE ON UPDATE CASCADE,
+    ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 
