@@ -8,7 +8,7 @@ $servicio = Profesionista::finds();
         <?php  include('../../menu.php') ?>
 
         <div id="contenido" class="">
-            <br>btn-outline-successtitulo">Nuevo profesionista</h1> 
+            <br><h1 id="titulo">Nuevo profesionista</h1> 
             <br>
             <form action="guardar.php" method="POST" enctype="multipart/form-data">
                 <div class="container">
