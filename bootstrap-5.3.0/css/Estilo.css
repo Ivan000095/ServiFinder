@@ -25,8 +25,14 @@ footer {
 
 #btnadd {
     position: absolute;
-    top: 22.5%;
+    top: 35.5%;
     right: 1.5%;
+}
+
+#btnrepo {
+    position: absolute;
+    top: 35.5%;
+    right: 11.5%;
 }
 
 #btnmod {
