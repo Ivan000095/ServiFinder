@@ -1,0 +1,153 @@
+nav {
+    background-color: #00c3a5!important;
+    width: 100%;
+}
+
+footer {
+    background-color: #00c3a5!important;
+    height: 20vh;
+    padding: 45px;
+}
+
+#contenido {
+    overflow-x: auto;
+    min-height: 90vh;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#tabla-catalogo {
+    width: 97%;
+    margin: auto;
+}
+
+#btnadd {
+    position: absolute;
+    top: 22.5%;
+    right: 1.5%;
+}
+
+#btnmod {
+    position: absolute;
+    top: 95%;
+    right: 1.5%
+}
+
+.inline{
+    display: inline;
+}
+
+.star-rating {
+    direction: rtl;
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+.star-rating input[type="radio"] {
+    display: none;
+}
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+        color: #f5b301;
+}
+
+#copyright{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+#footer-link{
+    display: block;
+    gap: 20 px;
+}
+
+.footer-link ion-icon{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+#UTSelva{
+    width: 160px;
+}
+
+.navbar-nav .registro .nav-link:hover {
+    background-color: #111d1b; 
+    color: white;              
+}
+
+.nav-link:hover{
+    color:white;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.navbar{
+    background-color: #00c3a5;
+}
+
+
+.navbar-nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ .registro {
+    position: absolute;
+    right: 0;
+    border-radius: 14px;
+    border: 0.5px solid black;
+    padding: 3px 3px;
+    transition: background-color 0.3s, color 0.3s; 
+    color: #00c3a5; 
+
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #00c3a5;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 100px;
+  display: none;
+  z-index: 1000;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #e6e9e8;
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px; /* o el alto que desees */
+    object-fit: cover;
+}
+
