@@ -10,7 +10,7 @@
         <br>
         <h1 id="titulo">Establecimientos</h1>
         <br>
-        <a href="reporte.php" class="btn btn-outline-dark" id="btnrepo"><i class="bi bi-filetype-pdf"></i> Reporte en PDF</a>
+        <a href="reporte.php" class="btn btn-outline-success" id="btnrepo"><i class="bi bi-filetype-pdf"></i> Reporte en PDF</a>
         <a href="create.php" class="btn btn-outline-success" id="btnadd"><i class="bi bi-person-add"></i> Agregar</a>
         <br> 
             <table class="table table-striped" id="tabla-catalogo">

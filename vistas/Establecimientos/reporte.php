@@ -7,8 +7,35 @@ $establecimiento = Establecimiento::lista();
 ?>
 <html>
     <?php include('../../head.php') ?>
-    <h1>Reporte de establecimientos</h1>
- <table class="table table-responsive table-striped " border="1"  id="tabla-catalogo">
+   <center> <h1>Reporte de establecimientos</h1> </center>
+         <style>
+            #tabla {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+
+            #tabla td, #tabla th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            }
+
+            #tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+            #tabla tr:hover {background-color: #ddd;}
+
+            #tabla th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+            h1 {
+                text-align: center;
+                font-family: Arial, sans-serif;
+            }}
+        </style>
+ <table  id="tabla">
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
@@ -23,7 +50,7 @@ $establecimiento = Establecimiento::lista();
                 <?php 
                 foreach($establecimiento as $e){
                 ?>
-                <br>
+              
                  <tr>
                     <td> <?php echo $e->Id_Establecimiento; ?> </td>
                     <td> <?php echo $e->Nombre; ?></td>
