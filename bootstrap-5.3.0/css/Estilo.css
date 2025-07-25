@@ -1,12 +1,31 @@
+body {
+    background-color: #ebf1ec;
+}
+
 nav {
-    background-color: #00c3a5!important;
+    background-color: #00c3a5;
     width: 100%;
 }
 
 footer {
-    background-color: #00c3a5!important;
+    background-color: #00c3a5;
     height: 20vh;
     padding: 45px;
+}
+
+#logoletras {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #ffffff; /* Ajusta según sea necesario */
+  letter-spacing: 1px;
+}
+
+
+#btnlog {
+    position: absolute;
+    width: 15%;
+    right: 1%;
 }
 
 #contenido {
@@ -25,16 +44,14 @@ footer {
 
 #btnadd {
     position: absolute;
-    top: 35.5%;
+    top: 22.5%;
     right: 1.5%;
 }
-
 #btnrepo {
     position: absolute;
-    top: 35.5%;
-    right: 11.5%;
+    top: 22.5%;
+    right: 8.75%;
 }
-
 #btnmod {
     position: absolute;
     top: 95%;
@@ -96,11 +113,6 @@ footer {
     border: 1px;
     border-radius: 10px;
 }
-
-.navbar{
-    background-color: #00c3a5;
-}
-
 
 .navbar-nav {
     display: flex;
